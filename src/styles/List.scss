@@ -1,16 +1,43 @@
 .list {
     padding: 20px;
-    height: 80vh; /* Set a fixed height for scrolling */
-    overflow-y: auto; /* Enable vertical scrolling */
-  }
-  
-  .favorite-item {
+    height: 80vh;
+    overflow-y: auto;
+    
+}
+
+.favorite-item {
     display: flex;
     margin-bottom: 10px;
+
     img {
-      width: 50px;
-      height: 50px;
-      margin-right: 10px;
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
     }
-  }
-  
+}
+
+.list_itm {
+    border-bottom: solid 1px;
+}
+
+.list_divs{
+    display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+.list_div{
+    max-width: 100%;
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 10px;
+    list-style: none;
+    margin: 10px;
+}
+// .item_id{
+//     padding: 15px;
+// }
+
+// .item_title{
+//     padding: 15px;
+// }
